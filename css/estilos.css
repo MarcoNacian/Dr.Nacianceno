@@ -1,0 +1,80 @@
+*{
+font-family: 'Raleway', sans-serif;
+}
+
+
+/*HEADER*/
+
+.navbar-brand{
+    margin-left: 9em
+}
+
+ul{
+    margin-right: 9em;
+}
+
+.nav-item:hover{
+
+    background: #3588CC;
+}
+
+.nav-item a:hover{
+    color: white
+}
+
+/*MAIND*/
+
+#barraCita{
+    background:#4682B4; 
+    padding: 1.6em
+}
+
+#barraCita a {
+    font-family: 'Raleway', sans-serif;
+ color: white; 
+ font-size:2em; 
+ margin-left: 8.5em
+}
+
+#barraCita  button{
+    color: #ffffff;
+    font-size: 1em;
+    width: 10em;
+    margin-right: 18em;
+    }
+.contenedor {
+   position: relative;
+   height: 0px;
+   width: 100%;   
+   padding-bottom: 56.25%;
+}
+ 
+.video {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   height: 100%;
+}
+
+#beneficios{
+    width: 100%;
+  
+}
+    
+
+/*FOOTER*/
+
+footer{
+    background:blue;
+}
+
+#Direccion p{
+ font-family: 'Raleway', sans-serif;
+ color: white; 
+ font-size:0.9em; 
+ float: left;
+
+}
+ 
+ 
