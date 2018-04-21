@@ -1,16 +1,16 @@
 <?php include('header.php'); ?>
     <main>
        <div class="contenedor">
-            <iframe src="img/video.mp4" controls autoplay loop
+            <iframe src="img/video.mp4"  autoplay loop
                 frameborder="0" 
                 allowfullscreen="allowfullscreen" 
-                class="video">
+                class="video" >
                 
             </iframe>
         </div> 
         <nav id="barraCita" class="navbar justify-content-between"> 
             <a class="navbar-brand">Programe su Cita</a>
-                <button class="btn btn-success " type="submit">Citas</button>
+                <button class="btn " type="submit">Citas</button>
         </nav>
         <div class="container-fluid">
             <!--
@@ -23,7 +23,7 @@
                     </div>
 -->
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12" style="padding: 0;">
                         <img id="beneficios" src="img/beneficios.jpg"   alt="Beneficios Homeopatia">
                     </div>
                 </div>

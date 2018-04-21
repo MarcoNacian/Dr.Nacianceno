@@ -1,5 +1,6 @@
 <?php include('header.php'); ?>
     <main>
+      
     <form>
         <label for="Nombre">Nombre:</label>
           <br>

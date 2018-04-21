@@ -1,6 +1,7 @@
 html{
     min-height: 100%;
     position: relative;
+    
 }
 
 body{
@@ -10,6 +11,7 @@ body{
 
 *{
 font-family: 'Raleway', sans-serif;
+padding: 0;
 }
 
 
@@ -25,7 +27,7 @@ ul{
 
 .nav-item:hover{
 
-    background: #3588CC;
+    background: #303F9F;
 }
 
 .nav-item a:hover{
@@ -34,8 +36,13 @@ ul{
 
 /*MAIND*/
 
+nav ul li a {
+    color: #303F9F;
+    font-size:1.1em;
+}
+
 #barraCita{
-    background:#4682B4; 
+    background:#68B04D; 
     padding: 1.6em
 }
 
@@ -43,20 +50,21 @@ ul{
     font-family: 'Raleway', sans-serif;
  color: white; 
  font-size:2em; 
- margin-left: 8.5em
+ margin-left: 4em
 }
 
-#barraCita  button{
-    color: #ffffff;
+#barraCita .btn{
+    background-color: #303F9F;
     font-size: 1em;
     width: 10em;
-    margin-right: 18em;
+    margin-right: 11em;
+    color: #ffffff;
     }
 .contenedor {
    position: relative;
-   height: 0px;
-   width: 100%;   
-   padding-bottom: 56.25%;
+   height: auto;
+   width: auto;   
+  padding-bottom: 56.25%;
 }
  
 .video {
@@ -64,19 +72,51 @@ ul{
    top: 0px;
    left: 0px;
    width: 100%;
-   height: 100%;
+   height: 50%;
 }
 
 #beneficios{
     width: 100%;
   
 }
+#titulo{
+    background:#68B04D; 
+    padding: 1.6em
     
+    
+}
 
+#titulo h2{
+    text-align: center;
+    color: #ffffff;
+}
+
+#pagHomeopatia{
+   margin-left: 10em;
+   margin-top: 3em;
+   
+}
+
+#queEs p{
+    text-align: justify;
+margin: 5em
+
+}
+
+#quienSomos p{
+text-align: justify;
+margin: 5em;
+}
+
+#pagQuienS{
+   margin-left: 10em;
+   margin-top: 3em;
+   
+}
 /*FOOTER*/
 
 footer{
-    background: #4682B4;
+    background: #303F9F;
     position: absolute;
     bottom: 0;
     width: 100%;
