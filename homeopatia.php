@@ -1,24 +1,22 @@
 <?php include('header.php'); ?>
-    <main>
-        <div class="container">
-<div class="row">
-    <h2>¿Que es homeopatia?</h2>
-    <div class="row">
-   
-    <div class="col-md-4">
-        <img src="img/7.png" width="300" height="300" alt="Homeopatia">
-    </div>
-    <div class="col-md-8">
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-        aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-        ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
-        dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
-        augue duis dolore te feugait nulla facilisi.
-</p>
- </div>
-    </div>
-</div>
-
+<main>
+    <div  class="container-fluid">
+        <div id="titulo" class="row">
+            <div class="col-md-12">
+                <h2>¿Que es homeopatia?</h2>
+            </div>
         </div>
-    </main>
+        <br>
+        <div class="row">
+                <div class="col-md-4">
+                    <img id="pagHomeopatia"  src="img/7.png" width="300" height="300" alt="Homeopatia">
+                </div>
+                <div id="queEs"   class="col-md-8">
+                    <p >La homeopatía es un método terapéutico que se basa en la ley de similitud o de los semejantes, la cual afirma que una sustancia que provoca determinados síntomas en una persona sana, en pequeñas cantidades, es capaz de curar los mismos síntomas o semejantes en una persona enferma.
+                       Los homeópatas elaboran los tratamientos consultando libros de referencia que se conocen como repertorios, donde, para la elaboración de un remedio homeopático se consideran factores como el conjunto de los síntomas de cada paciente, el estado físico y psicológico del mismo o su historia médica y de vida. Desde sus comienzos, la homeopatía ha sido objeto de debate y controversia entre los expertos en medicina (farmacéuticos, médicos, etcétera) y cuenta con defensores y detractores. Algunos expertos la han categorizado como una pseudociencia.</p>
+                </div>
+        </div>
+    </div>
+    <br>
+</main>
  <?php include('footer.php'); ?>
