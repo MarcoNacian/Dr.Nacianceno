@@ -1,10 +1,10 @@
 
-
+<br><br>
 <footer>
     <div  class="container-fluid">
         <div class="row">
             <div id="Direccion" class="col-md-10">
-                <p>Chiapas 1601 Col. Ancira Monterrey, N.L. C.P. 64820</p> 
+                <p>Chiapas 1601 Col. Ancira Monterrey, N.L. C.P. 64820 </p> 
                 <p>Tel: 83-58-33-87</p>
             </div>
             <div class="col-md-2">
@@ -24,5 +24,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
 </body>
-
 </html>

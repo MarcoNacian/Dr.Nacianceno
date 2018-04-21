@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
     <main>
        <div class="contenedor">
-            <iframe src="img/video.mp4" controls autoplay loop
+            <iframe src="img/video.mp4" autoplay loop
                 frameborder="0" 
                 allowfullscreen="allowfullscreen" 
                 class="video">
