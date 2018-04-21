@@ -4,7 +4,7 @@
 	<div class="row">
 		  <div id="titulo" class="col-md-12">
 			  <h2>Citas</h2>
-			  <p>Llenar el siguiente formato para solicitar una cita</p>
+			  <p>Llenar el siguiente formato para solicitar una cita:</p>
 			  <br>
 		  </div>
 	  </div>
