@@ -3,13 +3,13 @@
         <div  class="container-fluid">
         <div id="titulo" class="row">
             <div class="col-md-12">
-                <h2>Quienes Somos</h2>
+                <h2>¿ Quienes Somos ?</h2>
             </div>
         </div>
         <br>
         <div class="row">
                 <div class="col-md-4">
-                    <img id="pagQuienS"  src="img/5.JPG" width="300" height="400" alt="Quienes Somos">
+                    <img id="pagQuienS"  src="img/6.JPG" width="300" height="400" alt="Quienes Somos">
                 </div>
                 <div id="quienSomos"   class="col-md-8">
                     <br><br><br><br>
