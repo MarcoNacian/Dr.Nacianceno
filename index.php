@@ -1,17 +1,10 @@
 <?php include('header.php'); ?>
     <main>
-       <div class="contenedor">
-<<<<<<< HEAD
-            <iframe src="img/video.mp4" autoplay loop
-=======
-            <iframe src="img/video.mp4"  autoplay loop
->>>>>>> 782d996650a73881bff1f2a5c79c3a9a7bedc494
-                frameborder="0" 
-                allowfullscreen="allowfullscreen" 
-                class="video" >
-                
-            </iframe>
-        </div> 
+       <div style="margin: 0; text-align: center;">
+           <video style="height: auto; width: 50%;" controls="" autoplay="">
+               <source src="img/video.mp4" type="video/mp4"> 
+            </video> 
+        </div>
         <nav id="barraCita" class="navbar justify-content-between"> 
             <a class="navbar-brand">Programe su Cita</a>
                 <button class="btn " type="submit">Citas</button>

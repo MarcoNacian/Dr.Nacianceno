@@ -35,9 +35,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="cita.php">Citas</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.php">Contacto</a>
-                </li>
+
             </ul>
         </nav>
 
