@@ -6,6 +6,13 @@
                 <p><i class="fas fa-map-marker"></i> Chiapas 1601 Col. Ancira Monterrey, N.L. C.P. 64820 </p> 
                 <p style="margin-left: 1em"><i class="fas fa-phone" style="margin-right: .5em"> </i>Tel: 83-58-33-87</p>
             </div>
+            <div class="col-md-2" style="margin-top: 1.5em;">
+                <a href="https://www.facebook.com/Dr-Julio-Nacianceno-429898864101631/"><i class="fab fa-facebook-square"></i></a>
+                
+            </div>
+            <div class="col-md-2" style="margin-top: 1.5em;">
+                <a href=""><i class="fab fa-twitter-square"></i></a>
+            </div>
         </div>
     </footer>
 </div>
