@@ -8,7 +8,7 @@
         </div>
         <nav id="barraCita" class="navbar justify-content-between"> 
             <a class="navbar-brand">Programe su Cita</a>
-                <button class="btn" type="submit">Citas</button>
+                <a href="cita.php"><button class="btn" type="submit">Citas</button></a>
         </nav>
         <div class="row">
             <div class="col-md-12" style="padding: 0;">

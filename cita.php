@@ -12,19 +12,19 @@
 			<form action="">
 				<div class="form-group">
 					<label for="name">Nombre</label>
-					<input type="text" class="form-control" id="inName" placeholder="Ingrese su nombre completo">
+					<input type="text" class="form-control" name="inName" placeholder="Ingrese su nombre completo">
 				</div>
 				<div class="form-group">
 					<label for="phone">Telefono</label>
-					<input type="phone" class="form-control" id="inPhone" placeholder="Ingrese su telefono">
+					<input type="phone" class="form-control" name="inPhone" placeholder="Ingrese su telefono">
 				</div>
 				<div class="form-group">
 					<label for="mail">Correo Electronico</label>
-					<input type="mail" class="form-control" id="inMail" placeholder="Ingrese Correo">
+					<input type="mail" class="form-control" name="inMail" placeholder="Ingrese Correo">
 				</div>
 				<div class="form-group">
 					<label for="date">Fecha de Consutla</label>
-					<input type="date" class="form-control" id="inDate" placeholder="Seleccione Fecha">
+					<input type="date" class="form-control" name="inDate" placeholder="Seleccione Fecha">
 				</div>
 				<div class="form-check form-check-inline">
 					<input type="checkbox"class="form-check-input" id="exampleCheck1">

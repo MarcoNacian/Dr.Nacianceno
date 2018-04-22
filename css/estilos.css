@@ -150,7 +150,7 @@ footer{
     color: white; 
     font-size:0.9em; 
     float: left;
-    position: relative;
+    position: inherit;
     margin-left: 10%;
 }
 
@@ -161,7 +161,15 @@ i{
 
 
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {  }
+@media (max-width: 575.98px) { 
+    .carousel{
+        display: none;
+    }
+
+    #pagQuienS{
+        display: none;
+    }
+ }
 
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {  }
