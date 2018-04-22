@@ -1,7 +1,5 @@
 html{
-    min-height: 100%;
     position: relative;
-    
 }
 
 body{
@@ -10,23 +8,36 @@ body{
 }
 
 *{
-font-family: 'Raleway', sans-serif;
-padding: 0;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
 }
 
+.container-fluid{
+    padding: 0;
+}
+
+#titulo{
+    background:#68B04D; 
+    padding: 1.6em;    
+}
+
+
+#titulo h2{
+    text-align: center;
+    color: #ffffff;
+}
+#titulo h2:hover {
+    color: #303F9F;
+}
+
+#titulo p{
+    text-align: center;
+    color: #ffffff;
+}
 
 /*HEADER*/
 
-.navbar-brand{
-    margin-left: 9em
-}
-
-ul{
-    margin-right: 9em;
-}
-
 .nav-item:hover{
-
     background: #303F9F;
 }
 
@@ -34,12 +45,13 @@ ul{
     color: white
 }
 
-/*MAIND*/
-
 nav ul li a {
     color: #303F9F;
     font-size:1.1em;
 }
+
+
+/*INDEX*/
 
 #barraCita{
     background:#68b04c; 
@@ -48,9 +60,9 @@ nav ul li a {
 
 #barraCita a {
     font-family: 'Raleway', sans-serif;
- color: white; 
- font-size:2em; 
- margin-left: 4em
+    color: white; 
+    font-size:2em; 
+    margin-left: 4em
 }
 
 #barraCita .btn{
@@ -63,102 +75,94 @@ nav ul li a {
 
  
 video {
-background-size: cover;
-bottom: 0;
-height: auto;
-min-height: 50%;
-min-width: 100%;
-right: 0;
-width: auto;
-z-index: -100;
+    background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 50%;
+    min-width: 100%;
+    right: 0;
+    width: auto;
+    z-index: -100;
 }
 
 #beneficios{
     width: 100%;
-  
-}
-#titulo{
-    background:#68B04D; 
-    padding: 1.6em;    
-}
-#titulo :hover{
-       color: #303F9F;
 }
 
-#titulo h2{
-    text-align: center;
-    color: #ffffff;
+/*PAGINA HOMEOPATIA*/
+
+#homeopatia{
+    margin: 10%
 }
-/*
-#pagHomeopatia{
-   margin-left: 10em;
-   margin-top: 3em;
-   
-}*/
-#carousel
- {
-      width: 25em;
-      height: 30em;
-      position: relative;
-      perspective: 1100px;
-      margin-top: 4em;
-    }
+
+#carousel{
+      width: auto;
+      height: 100%;
+}
 
 #carousel img{
-    width: 30em;
-    height: 18em;
-    margin-left: 5em;
+    width: 100%;
+    height: 100%
 }
 
-
+#queEs{
+    padding: 10px;
+}
 
 #queEs p{
     text-align: justify;
-margin: 5em
-
 }
 
-#quienSomos p{
-text-align: justify;
-margin: 2em;
-padding-right: 18em;
-padding-left: 8em;
 
+/*PAGINA QUIENES SOMOS*/
+
+#quienSomos p{
+    text-align: justify;
+    padding: 5%;
 }
 
 #pagQuienS{
-   margin-left: 18em;
-   margin-top: 3em;
-   
+    width: 100%;
+    height: 100%;   
 }
-/*FOOTER*/
 
+/*PAGINA CITAS*/
+
+form{
+    margin: 10%;
+}
+
+/*FOOTER*/
 footer{
     background: #68b04c;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 4em;
+    height: 80px;
+}
+
+.row{
+    margin: 0;
+}
+
+#direccion p{
+    font-family: 'Raleway', sans-serif;
+    color: white; 
+    font-size:0.9em; 
+    float: left;
+    position: relative;
+    margin-left: 10%;
 }
 
 
-#Direccion p{
- font-family: 'Raleway', sans-serif;
- color: white; 
- font-size:0.9em; 
- float: left;
- margin-left: 10em;
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {  }
 
-}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {  }
 
-#mapa{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {  }
 
-#iconos{
-   padding-left: 11em;
-}
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { }

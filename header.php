@@ -17,8 +17,8 @@
     <script src="main.js"></script> 
 </head>
 <body>
+<div class="container-fluid">
     <header>
-
         <nav class="navbar">
             <a class="navbar-brand" href="#">
                 <img src="img/consultorio.png" width="245" height="145" alt="consultorio Nacianceno">
@@ -41,3 +41,4 @@
         </nav>
 
     </header>
+</div>
